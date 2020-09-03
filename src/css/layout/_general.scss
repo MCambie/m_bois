@@ -1,0 +1,76 @@
+body{
+    line-height: 1.7;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem; 
+}
+html{
+    scroll-behavior: smooth;
+}
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $blue;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    text-decoration: none;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  #button i{
+    color: white;
+} 
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  .about-us{
+    height:100vh;
+  }
+  .logo-about{
+    background-color: $blue!important;
+  }
+
+  // gallery
+  .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
