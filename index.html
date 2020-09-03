@@ -14,13 +14,13 @@
   </a>
   <nav class="main-nav navbar fixed-top navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="col-lg-1 col-md-1 col-sm-2 navbar-brand" href="#">
+      <a class="col-lg-1 col-md-1 col-3 navbar-brand" href="#">
         <img src="img/VIRGIN_LOGO.png" alt="" class="img-fluid">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="col-lg-10 col-md-10 col-sm-9 collapse navbar-collapse" id="navbarResponsive">
+      <div class="col-lg-10 col-md-10 col-8 collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home
@@ -51,21 +51,27 @@
       </div>
     </header>
     
-    <section class="about-us container-fluid">
+    <section class="about-us container-fluid mt-5">
       <div class="row align-items-center">
-        <div class="col-1"></div>
-        <div class="col-4 logo-about">
-          <img src="img/VIRGIN_TEXTURE.png" alt="texture" class="img-fluid">
+        <div class="col-lg-1 col-md-1 col-1"></div>
+        <div class="col-lg-10 col-md-10 col-10">
+          
+          <div class="row align-items-center">
+            <div class="col-lg-4 col-md-4 col-12 logo-about">
+              <img src="img/VIRGIN_TEXTURE.png" alt="texture" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-2 col-12"></div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <h2 class="text-uppercase">A propos de nous</h2>
+              <p>Entreprise de menuiserie active dans la conception et la réalisation de mobilier sur mesure (cuisine, bibliothèque, garde-robe etc) ainsi que dans l'aménagement général d'intérieurs</p>
+            </div>
+          </div>
         </div>
-        <div class="col-6">
-          <h2 class="text-uppercase">A propos de nous</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic debitis neque, excepturi quisquam, illo provident commodi eaque, laborum cum ratione quae doloribus? Assumenda eligendi sunt nostrum dolor beatae rem animi.</p>
-        </div>
-        <div class="col-1"></div>
+        <div class="col-lg-1 col-md-1 "></div>
       </div>
       
     </section>
-    <section class="real container-fluid">
+    <section class="real container-fluid mt-5">
       <div class="row">
         <div class="col-1"></div>
         <div class="col-10">
@@ -90,42 +96,11 @@
           
           <!-- Grid row -->
           <div class="gallery" id="gallery">
+            <div class="mb-3 pics animation all dressing" >
+              <a data-toggle="modal" data-target="#modal"><img class="img-fluid gallery-img" src="img/62649967_345999072733673_967595419692788755_n.jpg" alt="Card image cap"></a> 
+            </div>
             
-            <!-- Grid column -->
-            <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg" role="document">
-        
-                <!--Content-->
-                <div class="modal-content">
-        
-                  <!--Body-->
-                  <div class="modal-body mb-0 p-0">
-        
-                    <p>dsjkflbxcvbn;:xk=lùopuifhugrhfbvcnxw</p>
-        
-                  </div>
-        
-                  <!--Footer-->
-                  <div class="modal-footer justify-content-center">
-                    <span class="mr-4">Spread the word!</span>
-                    <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-                    <!--Twitter-->
-                    <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                    <!--Google +-->
-                    <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-                    <!--Linkedin-->
-                    <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
-        
-                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-        
-                  </div>
-        
-                </div>
-              </div>
-            </div>
-            <div class="mb-3 pics animation all dressing">
-              <a href=""> <img class="img-fluid" src="img/62649967_345999072733673_967595419692788755_n.jpg" alt="Card image cap" data-toggle="modal" data-target="#modal6"></a>
-            </div>
+            
             <!-- Grid column -->
             
             <!-- Grid column -->
@@ -160,36 +135,73 @@
             
           </div>
           <!-- Grid row -->
+          <!-- MODAL for single -->
+            <!-- Grid column -->
+            <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl" role="document">
+        
+                <!--Content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!--Body-->
+                  <div class="modal-body mb-5 p-0">
+                    <div class="row align-items-center">
+                      <div class="col-lg-1 col-md-1 col-1"></div>
+                      <div class="col-lg-10 col-md-10 col-10">
+                        
+                        <div class="row align-items-center">
+                          <div class="col-lg-5 col-md-5 col-12">
+                            <img src="img/62649967_345999072733673_967595419692788755_n.jpg" alt="texture" class="img-fluid">
+                          </div>
+                          <div class="col-lg-1 col-md-1 col-12"></div>
+                          <div class="col-lg-6 col-md-6 col-12">
+                            <h2 class="text-uppercase">super dressing</h2>
+                            <p>Dressing en chene massif pour Tartiflette à Ixelles</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-1 col-md-1 "></div>
+                    </div>
+        
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END modal for single -->
         </div>
         <div class="col-1"></div>
       </div>
     </section>
     
-    <section class="contact-us container-fluid">
+    <section class="contact-us container-fluid mt-5">
       <div class="row align-items-center">
         <div class="col-1"></div>
         <div class="col-10">
           <div class="row align-items-center">
             <h2 class="text-uppercase">Contactez nous</h2>
-            <p class="text-left">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-              a matter of hours to help you.</p>
+            </div>
+            <div class="row">            <p class="text-left mt-3 mb-4">N'hésitez pas à nous contacter pour un renseignement ou un devis</p>
             </div>
             <div class="row align-items-center">
               <div class="col-6 ">
                 <div class="row">
                   
                   <!--Grid column-->
-                  <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                  <div class="col-md-12 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form">
                       
                       <!--Grid row-->
-                      <div class="row">
+                      <div class="row mb-3">
                         
                         <!--Grid column-->
                         <div class="col-md-6">
                           <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
+                            <label for="firstname" class="text-uppercase">Nom</label>
+                            <input type="text" id="firstname" name="firstname" class="form-control">
                           </div>
                         </div>
                         <!--Grid column-->
@@ -197,35 +209,42 @@
                         <!--Grid column-->
                         <div class="col-md-6">
                           <div class="md-form mb-0">
+                            <label for="secondname" class="text-uppercase">Prenom</label>
+                            <input type="text" id="secondname" name="secondname" class="form-control">
+                          </div>
+                        </div>
+                        <!--Grid column-->
+                        
+                      </div>
+                      <!--Grid row-->
+                      <div class="row mb-3">
+                        <div class="col-md-12">
+                          <div class="md-form mb-0">
+                            <label for="email" class="text-uppercase">E-mail</label>
                             <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
                           </div>
                         </div>
-                        <!--Grid column-->
-                        
                       </div>
                       <!--Grid row-->
-                      
-                      <!--Grid row-->
-                      <div class="row">
+                      <div class="row mb-3">
                         <div class="col-md-12">
                           <div class="md-form mb-0">
+                            <label for="subject" class="text-uppercase">Sujet</label>
                             <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
                           </div>
                         </div>
                       </div>
                       <!--Grid row-->
                       
                       <!--Grid row-->
-                      <div class="row">
+                      <div class="row mb-3">
                         
                         <!--Grid column-->
-                        <div class="col-md-12">
+                        <div class="col-md-12 mb-3">
                           
                           <div class="md-form">
+                            <label for="message" class="text-uppercase">Message</label>
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
                           </div>
                           
                         </div>
@@ -235,24 +254,24 @@
                     </form>
                     
                     <div class="text-center text-md-left">
-                      <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                      <a class="btn text-uppercase">Envoyer</a>
                     </div>
-                    <div class="status"></div>
                   </div>
                   <!--Grid column-->
                   
                 </div>
               </div>
-              <div class="col-4 logo-about">
+              <div class="col-1"></div>
+              <div class="col-5">
                 
-                <img src="img/VIRGIN_TEXTURE.png" alt="texture" class="img-fluid">
+                <img src="img/99068547_3861903797184428_8681536370293866496_o.jpg" alt="texture" class="img-fluid">
               </div>
             </div>
             <div class="col-1"></div>
           </div>
           
         </section>
-        <footer class="page-footer font-small">
+        <footer class="page-footer font-small mt-5">
           
           <!-- Footer Elements -->
           <div class="container-fluid">
@@ -262,31 +281,15 @@
               
               <!-- Grid column -->
               <div class="col-md-12 py-4">
-                <div class="row d-flex justify-content-center">
+                <div class="row justify-content-center">
                   
                   <!-- Facebook -->
                   <a class="fb-ic">
-                    <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                  </a>
-                  <!-- Twitter -->
-                  <a class="tw-ic">
-                    <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                  </a>
-                  <!-- Google +-->
-                  <a class="gplus-ic">
-                    <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                  </a>
-                  <!--Linkedin -->
-                  <a class="li-ic">
-                    <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    <i class="fab fa-facebook-f fa-lg white-text  mr-3 fa-2x"> </i>
                   </a>
                   <!--Instagram-->
                   <a class="ins-ic">
-                    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                  </a>
-                  <!--Pinterest-->
-                  <a class="pin-ic">
-                    <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                    <i class="fab fa-instagram fa-lg white-text  ml-3 fa-2x"> </i>
                   </a>
                 </div>
               </div>
