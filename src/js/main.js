@@ -1,4 +1,10 @@
 
+// splashscreen
+$('.enter_link').click(function () {
+  $('#splashscreen').fadeOut(500);
+  $('html,body').css('overflow','auto');
+});
+
 // Bouton back-to-top
 
 var btn = $('#button');
