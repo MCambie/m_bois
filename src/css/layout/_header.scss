@@ -3,6 +3,9 @@
  background-color: $blue!important;
  border-bottom: 1px solid $brown;
 }
+.navbar-brand img{
+  max-height: 100%;
+}
 .main-nav.scrolled {
     background-color: #fff;
     transition: background-color 200ms linear;
@@ -15,10 +18,10 @@
       width:100%;
     height: 100vh;
     min-height: 500px;
-    background-image: linear-gradient(to bottom, rgba(47,65,73, 1), rgba(47,65,73, 0)),
-     url('../img/banner.png');
+    background-image: linear-gradient(to bottom, rgba(47,65,73, 1)15%, rgba(0,0,0,0)70%),
+     url('../img/banner_mbois.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow:hidden;
+    overflow: hidden;
   }

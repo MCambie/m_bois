@@ -8,6 +8,12 @@ body{
 html{
     scroll-behavior: smooth;
 }
+.btn{
+  background-color: $blue;
+  color: $brown!important;
+  border-radius: 0%;
+  font-weight: bold;
+}
 #button {
     display: flex;
     justify-content: center;
@@ -28,34 +34,50 @@ html{
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
   }
   #button i{
-    color: white;
+    color: $brown;
 } 
   #button.show {
     opacity: 1;
     visibility: visible;
   }
-  .about-us{
-    height:100vh;
-  }
   .logo-about{
     background-color: $blue!important;
   }
-
+// modal
+.modal-backdrop {
+  opacity: 0.8!important;
+}
+.modal-content{
+  border-radius: 0%;
+}
+.modal-header{
+  border: none;
+  button.close:focus{
+    outline:none;
+  }
+}
   // gallery
   .gallery {
+    cursor: pointer;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
     -webkit-column-width: 33%;
     -moz-column-width: 33%;
-    column-width: 33%; }
+    column-width: 33%;
+}
     .gallery .pics {
     -webkit-transition: all 350ms ease;
-    transition: all 350ms ease; }
+    transition: all 350ms ease; 
+}
+    .gallery .pics:hover{
+      opacity: 0.7;
+}
     .gallery .animation {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1); }
+    transform: scale(1);
+}
     
     @media (max-width: 450px) {
     .gallery {
@@ -66,11 +88,15 @@ html{
     -moz-column-width: 100%;
     column-width: 100%;
     }
-    }
+}
     
     @media (max-width: 400px) {
     .btn.filter {
     padding-left: 1.1rem;
     padding-right: 1.1rem;
     }
-    }
+}
+
+    .form-control{
+      border-radius: 0%;
+}
