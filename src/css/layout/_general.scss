@@ -85,12 +85,6 @@ html,body{
   // gallery
   .gallery {
     cursor: pointer;
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-    -webkit-column-width: 20%;
-    -moz-column-width: 20%;
-    column-width: 20%;
 }
     .gallery .pics {
     -webkit-transition: all 350ms ease;
@@ -147,4 +141,13 @@ html,body{
   border: none;
   box-shadow: 0 0 0 0.2rem rgba(47,65,73, 0.8);
   border-radius: 0%;
+}
+
+.wpcf7{
+  margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }

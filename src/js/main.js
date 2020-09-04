@@ -47,7 +47,7 @@ if ($('.smart-scroll').length > 0) { // check if element exists
   // Gallery
 
   $(function() {
-    var selectedClass = "";
+    let selectedClass = "";
     $(".filter").click(function(){
     selectedClass = $(this).attr("data-rel");
     $("#gallery").fadeTo(100, 0.1);
