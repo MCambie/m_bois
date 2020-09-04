@@ -21,7 +21,11 @@ html,body{
   background-color:$blue;
   z-index: 2000;
   margin: 0!important;
+  .row{
+    height: 100vh;
+  }
 }
+
 .mybtn{
   background-color: $blue;
   color: #ffffff;
@@ -60,6 +64,9 @@ html,body{
   }
   .logo-about{
     background-color: $blue!important;
+  }
+  .text-about{
+    padding-left: 0!important;
   }
 // modal
 .modal-backdrop {
