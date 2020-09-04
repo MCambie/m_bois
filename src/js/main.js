@@ -22,6 +22,11 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, '300');
 });
 
+// collapse navbar after click
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
+
 //   Style du menu au scroll
 $('body').css('padding-top', $('.main-nav').outerHeight() + 'px')
 
